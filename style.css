@@ -1,0 +1,138 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .glow {
+            font-size: 40px;
+            color: #fff;
+            margin-top: 20;
+            margin-bottom: 20px;
+            margin-right: 480px;
+            text-align: center;
+            margin-left: 420px;
+            animation: glow 1s ease-in-out infinite alternate;
+
+
+
+        }
+
+        @-webkit-keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+            }
+
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+            }
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            margin: 0 20px;
+        }
+
+        .image1 {
+            float: left;
+        }
+
+
+
+        form {
+            margin-top: 20px;
+            margin-left: 50px;
+            border: 1.5px solid black;
+            border-radius: 20px;
+            position: fixed;
+            text-align: center;
+            padding-bottom: 60px;
+            padding-top: 30px;
+            padding-right: 110px;
+            padding-left: 40px;
+            
+
+
+
+        }
+
+        .pp1 {
+            padding-top: 10px;
+            border-radius: 20px;
+            margin-top: 20px;
+            margin-left: 900px;
+            padding-bottom: 335px;
+            padding-right: 45px;
+            background-image: url("img1/triangles-1430105_1920.png");
+            position: fixed;
+
+        }
+
+        .text-box1 {
+            border: 2px solid black;
+            border-radius: 80px;
+            margin-right: 410px;
+            padding-left: 60px;
+            margin-left: 90px;
+            margin-top: 20px;
+            background-image: url("img1/house-rent-icon-beautiful-meticulously-designed-vector-stock-177245601.png");
+
+        }
+
+        .text-box1 h1 {
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        .t1 {
+
+            font-size: larger;
+        }
+
+        .t1 img {
+            border-radius: 30px;
+        }
+
+        body {
+            background-image: url("img1/house-1836070_1920.jpg");
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+       
+        .dd1{
+            margin-top: 10px;
+            border: 0.5px solid black;
+            margin-left: 60px;
+            margin-right: 60px;
+            background-color: #fff;
+
+        }
+        a:link{
+            color: green;
+
+        }

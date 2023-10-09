@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url("img1/house-1836070_1920.jpg");
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.glow {
+    font-size: 40px;
+    color: #fff;
+    margin-top: 20;
+    margin-bottom: 20px;
+    margin-right: 480px;
+    text-align: center;
+    margin-left: 420px;
+    animation: glow 1s ease-in-out infinite alternate;
+
+
+
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 60px;
+    background-color: #333;
+    margin-left: 520px;
+    margin-right: 520px;
+    color:blanchedalmond;
+}
+.form1{
+    border: 0.5px solid black;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding-left: 50px;
+    font-size:xx-large;
+    margin-right: 600px;
+    background-color: whitesmoke;
+    font-weight: bolder;
+
+}
+.d1{
+    margin-left: 150px;
+
+}
+footer{
+    background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            
+}
